@@ -13,7 +13,6 @@
         <!-- Styles / Scripts -->
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <h1>Welcome Page for git stash testing</h1>
-        <a href="stash">got to testing page</a>
+        <h1>Stash testing Page</h1>
     </body>
 </html>
