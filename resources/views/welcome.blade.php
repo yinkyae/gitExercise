@@ -11,8 +11,14 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <h1>Welcom from git Testing</h1>
-     Click Here to <a href="/about-us">About Us</a>
-     Click Here to <a href="/contact-us">Contact Us</a>
+                <h1>Welcome Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem animi suscipit aspernatur voluptas in nemo voluptates, tenetur repellendus ex? </p>
+                <ul>
+                    <li><a href="/user">User</a></li>
+                    <li><a href="/contact-us">Contact</a></li>
+                    <li><a href="/admin">Admin</a></li>
+                    <li><a href="/about-us">About</a></li>
+                </ul>
+
     </body>
 </html>
