@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
         <title>Laravel</title>
         <style>
@@ -15,6 +16,16 @@
                 width: 300px;
                 display: flex;
                 justify-content: space-evenly;
+            }
+            .cell{
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+                border: 1px solid blueviolet;
+                text-align: center;
+            }
+            .mytable{
+                margin: auto;
             }
 
         </style>
@@ -31,6 +42,51 @@
                     <li><a href="/admin">Admin</a></li>
                     <li><a href="/about-us">About</a></li>
                 </ul>
-
+                <table class="mytable">
+                    <tr>
+                        <td class='cell'>A</td>
+                        <td class='cell'>B</td>
+                        <td class='cell'>C</td>
+                        <td class='cell'>D</td>
+                        <td class='cell'>E</td>
+                    </tr>
+                    <tr>
+                        <td class='cell'>F</td>
+                        <td class='cell'>G</td>
+                        <td class='cell'>H</td>
+                        <td class='cell'>I</td>
+                        <td class='cell'>J</td>
+                    </tr>
+                    <tr>
+                        <td class='cell'>K</td>
+                        <td class='cell'>L</td>
+                        <td class='cell'>M</td>
+                        <td class='cell'>N</td>
+                        <td class='cell'>O</td>
+                    </tr>
+                    <tr>
+                        <td class='cell'>P</td>
+                        <td class='cell'>Q</td>
+                        <td class='cell'>R</td>
+                        <td class='cell'>S</td>
+                        <td class='cell'>T</td>
+                    </tr>
+                    <tr>
+                        <td class='cell'>U</td>
+                        <td class='cell'>V</td>
+                        <td class='cell'>W</td>
+                        <td class='cell'>X</td>
+                        <td class='cell'>Y</td>
+                    </tr>
+                </table>
     </body>
 </html>
+
+<script>
+    $(document).ready(function () {
+        $('.cell').click(function () {
+            $(this).text('hello');
+            
+        })
+    })
+</script>
