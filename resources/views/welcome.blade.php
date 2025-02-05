@@ -23,6 +23,7 @@
                 margin: 10px;
                 border: 1px solid blueviolet;
                 text-align: center;
+                cursor: pointer;
             }
             .mytable{
                 margin: auto;
