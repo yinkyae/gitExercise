@@ -45,6 +45,27 @@
         </ul>
     </div>
 
+    <div class="hero-section flex-display">
+            <div class="number-design">
+                01 / 03
+            </div>
+            <div class="sing-mig">
+                <img src="https://themixbysu.com/brancy/assets/images/slider/text-theme.webp" alt="">
+            </div>
+            <div class="hero-photo">
+                <img src="https://themixbysu.com/brancy/assets/images/slider/Slider-5-Camera.png?t=1738902213252" alt="" width="841" height="823">
+            </div>
+            <div class="favourite-collection">
+                    Favourite Collection
+            </div>
+    </div>
+
+    <div class="hero-text">
+        <p style="font-size: 4rem; font-weight:bold; margin-bottom:0px">ALL PRODUCTS</p>
+        <p style="width: 400px;">You can get all product of The Mix By Su in one place. You Can get</p>
+        <button style="background: pint; padding: 15px 40px; border: 1px solid rgb(250, 132, 152); border-radius: 20px; background:rgb(250, 132, 152); color:white">KyiShu Mal</button>
+    </div>
+
 
 </body>
 

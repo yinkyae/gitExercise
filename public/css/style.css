@@ -24,7 +24,6 @@ body{
     font-size:  16px;
     font-weight: 600;
     color: rgb(60, 60, 60);
-    letter-spacing: 2px;
     width: 100%;
     margin: auto;
     justify-content: space-between;
@@ -35,7 +34,7 @@ body{
     align-items: center; 
 }
 .nav-menus>li{
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .top-header>ul{
@@ -54,5 +53,65 @@ body{
 .nav-action>li{
     margin-left: 40px;
 }
+
+.hero-section{
+    display: flex;
+    width: 89%;
+    height: 69vh;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.number-design {
+    margin-top: 10%;
+    width: 25%;
+    height: 20px;
+    transform: rotate(-90deg);
+    position: relative; /* Ensure the pseudo-elements are positioned relative to .number-design */
+    font-size: x-large;
+}
+
+.number-design::before,
+.number-design::after {
+    content: '';
+    position: absolute; /* Position the lines relative to .number-design */
+    top: 50%; /* Align the lines vertically in the middle */
+    width: 130px; /* Set the width of the lines */
+    height: 2px; /* Set the thickness of the lines */
+    background-color: burlywood;
+   
+}
+
+.number-design::before {
+    left: -150px; /* Position the line to the left */
+}
+
+.number-design::after {
+    right: -120px; /* Position the line to the right */
+}
+.hero-photo{
+    width: 50%;
+}
+
+.favourite-collection {
+    margin-top: 280px;
+    width: 25%;
+    font-size: 5rem; /* Adjust size as needed */
+    font-weight: bold; /* Make it bold if necessary */
+    color: transparent; /* Make the inside transparent */
+    -webkit-text-stroke: 3px white; /* Outline width and color */
+    text-transform: uppercase; /* Ensure all text is in uppercase */
+    writing-mode: vertical-lr; /* For vertical alignment */ /* Adjust spacing if needed */
+    text-wrap: nowrap; 
+  }
+
+  .hero-text{
+    position: absolute;
+    left:  12%;
+    top: 45%;
+  }
+
+
 
 
